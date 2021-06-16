@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Desktop Calculator</title>
+    <script type="text/javascript" src="calc.js"></script>
+</head>
+<body>  
+    <form id="myform" Name="calc">
+       <input name="history" readonly="readonly" class="history" id="history"></br>
+       <input name="display" class="display" id="display" onkeydown="key_detect(event)"></br>
+       <div class="buttons">
+       <input type="button" value="C" onClick="start()" class="clear" id="clear">
+       <input type="button" value="+/-" onClick="f_calc('+/-')" class="button">
+       <input type="button" value="%" onClick="f_calc('%')" class="button">
+       <input type="button" value="+" onClick="f_calc('+')" class="operator">
+       <input type="button" value="1" onClick="add(1)" class="digits">
+       <input type="button" value="2" onClick="add(2)" class="digits">
+       <input type="button" value="3" onClick="add(3)" class="digits">
+       <input type="button" value="-" onClick="f_calc('-')" class="operator">
+       <input type="button" value="4" onClick="add(4)" class="digits">
+       <input type="button" value="5" onClick="add(5)" class="digits">
+       <input type="button" value="6" onClick="add(6)" class="digits">
+       <input type="button" value="x" onClick="f_calc('*')" class="operator">
+       <input type="button" value="7" onClick="add(7)" class="digits">
+       <input type="button" value="8" onClick="add(8)" class="digits">
+       <input type="button" value="9" onClick="add(9)" class="digits">
+       <input type="button" value="/" onClick="f_calc('/')" class="operator">
+       <input type="button" value="0" onClick="add(0)" class="digits">
+       <input type="button" value="." onClick="add('.')" class="button">
+       <input type="button" value="=" onClick="f_calc('=')" class="button">
+       <input type="button" value="del" onClick="f_calc('del')" class="button">
+    </form>
+</body>
+</html>
