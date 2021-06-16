@@ -1,0 +1,73 @@
+:root{
+    --color:aqua;
+}
+body{
+    font-size:65px;
+    color:#fff;
+    background-image : url('https://wonderfulengineering.com/wp-content/uploads/2014/01/Technology-Wallpapers-6.jpg');
+}
+.history {
+    width: 400px;
+    height: 33px;
+    font-size: 29px;
+    margin: 0px;
+    background-color: #000;
+    color: #555;
+    text-align:right;
+}
+.display {
+    width: 400px;
+    height: 65px;
+    font-size: 41px;
+    margin: 0px;
+    background-color: #000;
+    color: #fff;
+    text-align:right;
+}
+
+#myform {
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color:#222;
+    width: 400px;
+    height:560px;
+    padding:26px;
+}
+.buttons{
+    display:grid;
+    grid-template-columns:100px 100px 100px 100px;
+    grid-template-rows:78px 78px 78px 78px 78px;
+    color:#fff;
+}
+input{
+    background-color:#1d1d1d;
+}
+h1{
+    text-align: center;
+    font-size: 52px;
+    margin-right: 150px;
+    margin-top:20px;
+}
+
+.clear{
+    background-color:var(--color);
+    color:white;
+    font-size:33px;
+}
+.operator{
+    color:var(--color);
+    font-size:33px;
+}
+.button{
+    color:var(--color);
+    font-size:33px;
+}
+.digits{
+    color:#fff;
+    font-size:33px;
+}
+button{
+  background-color:#1d1d1d;
+  color:aqua;
+  font-size:22px;
+  }
